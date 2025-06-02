@@ -10,6 +10,11 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+.bg-custom {
+  background-color: #000000 !important; /* Cambia este color por el que prefieras */
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -22,7 +27,7 @@
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
-  --bs-white: #fff;
+  --bs-white: #ffffff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
@@ -101,7 +106,8 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(255, 8, 8, 0);
+  -webkit-tap-highlight-color: rgba(196, 46, 46, 0);
+  background-color: #ffffff !important; /* Cambia este color por el que prefieras */
 }
 
 hr {
@@ -3724,6 +3730,11 @@ textarea.form-control-lg {
 .tab-content > .active {
   display: block;
 }
+
+header.bg-dark {
+  background-color: rgb(255, 255, 255) !important; /* Background del Navbar */
+}
+
 
 .navbar {
   --bs-navbar-padding-x: 0;
@@ -10847,6 +10858,3 @@ html {
   min-height: 15rem;
 }
 
-header.bg-dark {
-  background-color: #1a237e !important; /* Usa el color que prefieras */
-}
